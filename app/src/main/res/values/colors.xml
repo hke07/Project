@@ -8,4 +8,6 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="slay">#0F91A1</color>
+    <color name="launch">#F0BDF8</color>
+    <color name="cyan">#0A7FB5</color>
 </resources>
