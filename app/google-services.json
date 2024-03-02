@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "328879460476",
+    "project_id": "igifted-da652",
+    "storage_bucket": "igifted-da652.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:328879460476:android:12c59c24d28e610146b9f9",
+        "android_client_info": {
+          "package_name": "com.example.project"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLXCZjika4FzcGwNmh-XZ5MTJZpHpPMgc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
