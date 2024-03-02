@@ -8,13 +8,15 @@
     android:layout_marginHorizontal="32dp"
     tools:context=".LoginActivity">
 
-    <ImageView
+    <com.airbnb.lottie.LottieAnimationView
         android:id="@+id/login_icon"
-        android:layout_width="128dp"
-        android:layout_height="128dp"
+        android:layout_width="228dp"
+        android:layout_height="156dp"
         android:layout_centerHorizontal="true"
         android:layout_marginVertical="32dp"
-        android:src="@drawable/miana"/>
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/login"/>
 
     <LinearLayout
         android:layout_width="match_parent"

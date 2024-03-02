@@ -34,7 +34,6 @@ public class RegActivity extends AppCompatActivity {
         createAccountBtn = findViewById(R.id.create_account_btn);
         progressBar = findViewById(R.id.progress_bar);
         loginBtnTextView = findViewById(R.id.login_text_view_btn);
-        guestmodeBtnTextView = findViewById(R.id.guest_mode_view_btn);
 
         createAccountBtn.setOnClickListener(v -> createAccount());
         guestmodeBtnTextView.setOnClickListener((v)-> startActivity(new Intent(RegActivity.this, MainActivity.class)));
