@@ -11,8 +11,8 @@
 
     <com.airbnb.lottie.LottieAnimationView
         android:id="@+id/sign_up_icon"
-        android:layout_width="228dp"
-        android:layout_height="156dp"
+        android:layout_width="320dp"
+        android:layout_height="256dp"
         android:layout_centerHorizontal="true"
         android:layout_marginVertical="32dp"
         app:lottie_autoPlay="true"
@@ -127,5 +127,26 @@
             android:text="Login"/>
 
     </LinearLayout>
+    <LinearLayout
+        android:id="@+id/lgb2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lgb"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_margin="10dp">
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Want to observe? Login as a "/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:id="@+id/guest_reg"
+            android:text="Guest"/>
+
+    </LinearLayout>
 </RelativeLayout>
